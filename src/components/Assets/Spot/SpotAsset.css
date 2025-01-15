@@ -1,0 +1,246 @@
+.balanceContainer {
+  width: 90%;
+}
+.RightSide_balance_container {
+  width: 36%;
+}
+
+.leftSide_balance_container {
+  width: 62%;
+}
+
+.spotData_main_container {
+  max-height: 40vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.spotData_main_container::-webkit-scrollbar {
+  width: 3px;
+}
+.spotData_main_container::-webkit-scrollbar-thumb {
+  background: #236dff;
+  border-radius: 2px;
+}
+
+#dropdown_Asset_limit {
+  background-color: transparent;
+  color: #fab446 !important;
+  border: none;
+  font-size: 0.9rem;
+  /* color: "#FFFF00", */
+}
+.selectedAssetInput_container {
+  background-color: #f5f5f533 !important;
+  color: #fab446 !important;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.assetListSymbol {
+  /* background-color: #0a0a0a; */
+  background-color: #236dff14;
+}
+
+.assetListSymbol:hover {
+  background: #236dff80;
+}
+
+.assetSearchFromTOModal .modal-content {
+  border: none;
+  background-color: #1b1d24;
+}
+.assetSearchFromTOModal .modal-content .modal-body {
+  padding: unset;
+  background-color: "#1B1D24";
+  border: none;
+}
+
+/* #assetSearchFromToModal::-webkit-scrollbar {
+  width: 2px;
+}
+#assetSearchFromToModal::-webkit-scrollbar-thumb {
+  background: #1561f8;
+  border-radius: 10px;
+} */
+
+.assetSearch_main {
+  overflow-y: auto;
+  /* max-height: 48vh */
+  padding-top: 11rem;
+  height: 30vh;
+}
+
+.horizontal_line_asset {
+  border-bottom: 1px solid rgba(245, 245, 245, 0.2);
+}
+
+.reverse_img_container {
+  left: 45%;
+  bottom: 54%;
+}
+.reverse_img_container_confirmModal {
+  left: 45%;
+  bottom: 74%;
+}
+
+.coinSelectTAb {
+  padding-top: 8px;
+}
+
+.receiveContainer {
+  background-color: #222631 !important;
+  opacity: 0.5;
+}
+
+.balanceText {
+  background-color: #2e2e2e;
+}
+#ConvertModal {
+  display: flex;
+  justify-content: center;
+  background-color: #0a0d17;
+  border-radius: 5px;
+  border: 1px solid rgba(245, 245, 245, 0.2);
+  width: 35vw;
+}
+
+#assetSearchModal {
+  display: flex;
+  justify-content: center;
+  background-color: #0a0d17;
+  border-radius: 5px;
+  border: 1px solid rgba(245, 245, 245, 0.2);
+  width: 24vw;
+  height: 70vh;
+}
+
+#assetSearchFromToModal {
+  display: flex;
+  justify-content: center;
+  background-color: hwb(0 10% 88%);
+  border-radius: 5px;
+  width: 25vw;
+  /* min-width: 22vw;
+  min-height: 42vh !important; */
+  height: 43vh !important;
+  overflow-y: auto;
+}
+.convertInput {
+  width: 40%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.assetListlInput {
+  background-color: #12141e;
+  color: #f5f5f5 !important;
+  border-radius: 5px;
+  border: 1px solid rgba(245, 245, 245, 0.2);
+  height: 7vh;
+  min-width: 14vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.convertSelectInput .assetListlInput .css-13hed5i-control {
+  width: 100%;
+  background-color: #12141e !important;
+}
+
+.assetListlInput .css-1nmdiq5-menu,
+.css-13hed5i-control,
+.css-12remmy-control {
+  background-color: #12141e !important;
+}
+
+.continueButtonConvert {
+  height: 6vh;
+  width: 22vw;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+}
+
+.continueButtonConvertDisable {
+  height: 6vh;
+  width: 22vw;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  background-color: #515151;
+}
+
+.inputbox_searchcoin {
+  background-color: #12141e;
+  border-radius: 5px;
+  border: 1px solid rgba(245, 245, 245, 0.2);
+  color: #f5f5f5;
+  outline: none;
+  width: 26vw;
+}
+
+.successModalbtn {
+  width: 90%;
+}
+@media (max-width: 1280px) {
+  #assetSearchFromToModal {
+    display: flex;
+    justify-content: center;
+    background-color: hwb(0 10% 88%);
+    border-radius: 5px;
+    width: 29vw !important;
+    /* height: 48vh !important; */
+    width: 34vw !important;
+    height: 66vh !important;
+    /* overflow-y: auto; */
+  }
+
+  .assetSearch_main {
+    height: 48vh;
+  }
+}
+
+/* .css-tj5bde-Svg {
+  display: inline-block;
+    fill: currentColor;
+    line-height: 1;
+    stroke: currentColor;
+    stroke-width: 0;
+    position: absolute;
+    right: 20px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+}
+
+.css-13hed5i-control {
+  text-align: left !important;
+  width: 100% !important;
+} */
+
+/* Spot Withdraw */
+.spot_withdraw .spot_withdraw_container {
+  display: block;
+}
+.asset_container {
+  max-height: 55vh;
+  overflow-y: auto;
+}
+.asset_item:hover {
+  background-color: rgba(15, 21, 33) !important;
+}
+.country_list_number {
+  max-height: 30vh;
+  overflow-y: auto;
+}
+.withdrw_modal .modal-dialog {
+  margin-top: 7%;
+}
+.btn_border {
+  border: 1px solid #203763;
+  background-color: rgba(35, 109, 255, 0.03);
+  outline: none;
+}

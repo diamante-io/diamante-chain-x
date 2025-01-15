@@ -1,0 +1,201 @@
+.settingsleftSec {
+  height: 95%;
+  width: 30%;
+  background-color: #0a0d17;
+  border-radius: 10px;
+}
+
+.settingsMyAccount {
+  position: relative;
+  height: 20%;
+  width: 100%;
+  border-top: 1px solid #2a2a2a;
+  border-bottom: 1px solid #2a2a2a;
+  padding: 7%;
+  border-right: none;
+  cursor: pointer;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 6px;
+}
+
+.settingsMyAccount p:last-child {
+  font-size: 0.8rem;
+  color: #f5f5f5;
+  opacity: 0.8;
+}
+
+.selectedBoxBorder {
+  border-left: 5px solid #236dff;
+  background: linear-gradient(
+    180deg,
+    rgba(35, 109, 255, 0.25) 0%,
+    rgba(35, 109, 255, 0.14) 100%
+  );
+  /* background: linear-gradient(
+    180deg,
+    rgba(0, 240, 255, 0.37) 0%,
+    rgba(0, 240, 255, 0.14) 100%
+  ); */
+}
+
+.settingsRightSecPAndS {
+  height: 80vh;
+  background-color: #0a0d17;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  overflow-y: auto;
+  border: 1px solid #272829;
+}
+
+.changePswrdInput_label {
+  width: auto;
+  font-size: 1vw;
+  padding: 0px 10px;
+  margin: 0px 14px;
+}
+
+.changePswrdField {
+  position: relative;
+  width: 86%;
+}
+
+.changePswrdInput,
+.changePswrdInputStrong,
+.changePswrdInputValid {
+  width: 100%;
+  background-color: transparent !important;
+  height: 6vh;
+  font-size: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid hsla(0, 0%, 78%, 0.4);
+  border-radius: 6px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  outline: none;
+}
+
+.changePswrdInputStrong {
+  border: 1px solid #00b894 !important;
+}
+
+.changePswrdInputValid {
+  border: 1px solid #b71540;
+}
+
+.changePswrdInput::placeholder {
+  color: #64748b;
+}
+
+.show_password {
+  position: absolute;
+  right: 2px;
+}
+
+.changePswrdField {
+  position: relative;
+  width: 86%;
+}
+
+.privacyChangePassword {
+  /* margin-top: 15%; */
+}
+
+.privacyChangePassword button:last-child,
+.privacyChangePassword button:first-child {
+  width: 30%;
+  height: 5vh;
+  border: none;
+  border-radius: 0.5vw;
+  color: #fff;
+}
+
+.privacyChangePassword button:last-child {
+  background: linear-gradient(90deg, #143575, #236dff);
+}
+
+.privacyChangePassword button:first-child {
+  border: 1px solid #236dff;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+.two_factor_modal .modal-content {
+  background-color: transparent;
+}
+
+.logoutSectionButton button:first-child,
+.logoutSectionButton button:last-child {
+  width: 30%;
+  height: 6vh;
+}
+
+.logoutSectionButton button:first-child {
+  background-color: rgba(0, 0, 0, 0.12);
+  border: 1px solid #236dff;
+}
+
+.logoutSectionButton button:last-child {
+  background: linear-gradient(90deg, #143575, #236dff);
+}
+
+.select_Modal_next_button {
+  background: linear-gradient(90deg, #143575, #236dff);
+  /* background: linear-gradient(90deg, #0c8384, #00eefd); */
+}
+
+@media screen and (min-width: 1281px) {
+  .changePswrdInput_label {
+    width: 90%;
+  }
+  .changePswrdField {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  }
+  .changePswrdField {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  }
+  .privacyChangePassword {
+    margin-top: 30%;
+  }
+  .qrCanvas_settings img {
+    width: 26rem;
+  }
+}
+#enableTwoFAModal {
+  margin: 0 !important;
+}
+#enableTwoFAModal .modal-content {
+  width: 100vw !important;
+  height: 100vh !important;
+  background-color: #0a0c14 !important;
+  overflow: hidden !important;
+}
+.removeIcon_twoFASet {
+  width: 30px;
+  z-index: 999;
+  height: 30px;
+}
+.leftSecModalContent {
+  width: 38%;
+  height: 92vh;
+  background-color: #0a0d17;
+  border: 1px solid #24252a;
+  margin: auto !important;
+}
+.TwoFATopSectionText {
+  line-height: 8px;
+  color: #cfcfd0;
+}
+
+.QRCodeForTwoFA {
+  z-index: 2;
+  /* position: fixed;
+  padding: 10px;
+  background-color: #fff; */
+}
+.qrCanvas_settings img {
+  width: 24rem;
+}

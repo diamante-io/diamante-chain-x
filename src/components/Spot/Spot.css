@@ -1,0 +1,414 @@
+.estimatedBalanceContent {
+  background-color: rgba(26, 26, 26, 0.47);
+  color: #f5f5f5;
+  width: 41vw;
+  height: 12vh;
+  border-radius: 6px;
+  border: 1px solid rgba(245, 245, 245, 0.2);
+}
+
+.depositPageContent {
+  width: 84vw;
+}
+
+#dropdown-basic {
+  background-color: #515151;
+  color: #fab446;
+  border-radius: 25px;
+  border: none;
+}
+
+.tableContent {
+  height: 60vh;
+  background-color: rgba(26, 26, 26, 0.47);
+  border: 1px solid rgba(245, 245, 245, 0.2);
+  border-radius: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.tableContent::-webkit-scrollbar {
+  width: 2px;
+}
+.tableContent::-webkit-scrollbar-thumb {
+  background: #1561f8;
+  border-radius: 10px;
+}
+
+.inputBox {
+  background-color: black;
+  border-radius: 5px;
+  border: 1px solid rgba(245, 245, 245, 0.2);
+  color: #f5f5f5;
+  outline: none;
+}
+
+.SearchIcon {
+  position: relative;
+  left: -29px;
+}
+
+.swapConvertICon{
+  padding-top: 4vh;
+}
+
+
+.ant-table-content {
+  background-color: #1a1a1a;
+}
+.ant-table-thead {
+  background-color: #1a1a1a !important;
+}
+.ant-table-thead .ant-table-cell {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+}
+
+:where(.css-dev-only-do-not-override-6j9yrn).ant-table-wrapper .ant-table {
+  box-sizing: border-box;
+  color: #ffffff;
+  line-height: 0.8;
+  list-style: none;
+  border-radius: 8px 8px 0 0;
+}
+
+:where(.css-dev-only-do-not-override-6j9yrn).ant-table-wrapper {
+  max-width: 95%;
+}
+
+:where(.css-dev-only-do-not-override-6j9yrn).ant-table-wrapper
+  td.ant-table-column-sort {
+  background-color: #1a1a1a !important;
+}
+
+:where(.css-dev-only-do-not-override-6j9yrn).ant-table-wrapper
+  .ant-table-column-sorter {
+  margin-inline-start: 4px;
+  color: blue !important;
+  font-size: 0;
+  transition: color 0.3s;
+}
+.ant-table-cell-row-hover {
+  background-color: #1a1a1a !important;
+}
+
+:where(.css-dev-only-do-not-override-6j9yrn).ant-pagination
+  .ant-pagination-disabled
+  .ant-pagination-item-link,
+:where(.css-dev-only-do-not-override-6j9yrn).ant-pagination
+  .ant-pagination-disabled:hover
+  .ant-pagination-item-link {
+  color: #ffffff !important;
+}
+
+/* .sendPageContent {
+  background-color: #1a1a1a;
+  height: 82vh;
+  width: 82vw;
+  border-radius: 5px;
+  border: 1px solid rgba(245, 245, 245, 0.2);
+} */
+
+.progress-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.step {
+  width: 15px;
+  height: 15px;
+  background-color: #ddd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.completed {
+  background-color: #ffffff;
+  color: #fff;
+}
+
+.borderActive {
+  border-bottom: 1px solid #236dff;
+  color: #236dff;
+  cursor: pointer;
+}
+
+.inputBoxEmail {
+  height: 6vh;
+  width: 20vw;
+  background-color: #0a0a0a;
+  border-radius: 5px;
+  border: 1px solid rgba(245, 245, 245, 0.2);
+  outline: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.continueButton {
+  background-color: #236dff;
+  height: 6vh;
+  width: 20vw;
+  border-radius: 4px;
+  border: 1px solid #236dff;
+  color: #ffffff;
+}
+
+.addPayeeContent {
+  width: 28vw;
+  background-color: #2a2a2a;
+  border-radius: 5px;
+  border: 1px solid rgba(245, 245, 245, 0.2);
+}
+
+.continueButtonCommonPayee {
+  background-color: #236dff;
+  height: 6vh;
+  width: 24vw;
+  border-radius: 4px;
+  border: 1px solid #236dff;
+  color: #ffffff;
+}
+
+.inputBoxEmailCommonPayee {
+  height: 6vh;
+  width: 24vw;
+  background-color: #0a0a0a;
+  border-radius: 5px;
+  border: 1px solid rgba(245, 245, 245, 0.2);
+  outline: none;
+  color: #ffffff;
+}
+
+.transactionPageContent {
+  background-color: #1a1a1a;
+  height: 82vh;
+  width: 84vw;
+  border-radius: 5px;
+  border: 1px solid rgba(245, 245, 245, 0.2);
+}
+
+.horizontal_line {
+  border-bottom: 1px solid rgba(245, 245, 245, 0.2);
+}
+
+.inputBoxSearch {
+  height: 6vh;
+  width: 14vw;
+  background-color: #12141E;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid rgba(245, 245, 245, 0.2);
+  outline: none;
+}
+
+.fromToWalletContainer,  #dropdown-transaction-history, .input_box_searchTaxCoin {
+  background-color: #12141E;
+  color: #f5f5f5 !important;
+  border-radius: 5px;
+  border: 1px solid rgba(245, 245, 245, 0.2);
+  height: 7vh;
+  width: 14vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+#dropdown-transaction-history::after {
+  content: url("../../assets/dropdown_down_arrow.svg");
+  border-top: 0px;
+}
+
+#dropdown-transfer-modal::after {
+  content: url("../../assets/dropdown_down_arrow.svg");
+  border-top: 0px;
+}
+
+#dropdown-transfer::after {
+  content: url("../../assets/dropdown_down_arrow.svg");
+  border-top: 0px;
+}
+
+.tableContentheader {
+  background-color: #2b2b2b;
+  width: 81.8vw;
+  height: 10vh;
+  color: rgba(245, 245, 245, 0.7);
+}
+
+.modal-content {
+  background-color: #0a0d17;
+  border-radius: 5px;
+  border: 1px solid rgba(245, 245, 245, 0.2);
+}
+
+.FiatBoxContent {
+  background-color: #1a1a1a;
+  border-radius: 3px;
+  border: 1px solid rgba(245, 245, 245, 0.2);
+  width: 18vw;
+}
+
+.reverseIcon {
+  position: absolute !important;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#dropdown-transfer {
+  --bs-btn-bg: none;
+  border: none;
+  --bs-btn-hover-bg: none;
+  margin-top: -9px;
+}
+
+.continueButtonTransfer {
+  background-color: #515151;
+  height: 6vh;
+  width: 18vw;
+  border-radius: 4px;
+  /* border: 1px solid #236dff; */
+  color: #ffffff;
+}
+
+.modal-open .dashboard_profile_container {
+  -webkit-filter: blur(5px);
+}
+
+.ant-table-pagination {
+  justify-content: center !important;
+}
+
+:where(.css-dev-only-do-not-override-6j9yrn).ant-pagination
+  .ant-pagination-item-active {
+  background-color: #1561f8 !important;
+  color: #ffffff;
+}
+
+.anticon svg {
+  color: #ffffff;
+}
+
+.ant-pagination-item {
+  background-color: black;
+  color: #ffffff;
+}
+
+.outer_circle_send {
+  width: 1.5vw;
+  height: 3vh;
+  border: 1px #236dff solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vertical-line {
+  border-left: 1.5px solid #515151;
+  height: 23vh;
+  margin: 9px;
+  margin-top: -2px;
+}
+
+.arrow_icon_spot {
+  width: 6px;
+  border: 0.125rem solid rgba(245, 245, 245, 0.6);
+  padding: 3px;
+  rotate: 225deg;
+  bottom: -5px;
+  left: -9px;
+  border-bottom: none;
+  border-right: none;
+  border-radius: 1px;
+}
+
+.addText {
+  width: 8vw;
+  height: 5vh;
+  font-size: 1vw;
+  background-color: #515151;
+  border-radius: 30px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#deleteBeneficiaryModal {
+  display: flex;
+  justify-content: center;
+  background-color: #1a1a1a;
+  border-radius: 5px;
+  border: 1px solid rgba(245, 245, 245, 0.2);
+  width: 24.5vw;
+}
+
+:where(.css-dev-only-do-not-override-6j9yrn).ant-table-wrapper table {
+  width: 100%;
+  text-align: center;
+  border-radius: 8px 8px 0 0;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+:where(.css-dev-only-do-not-override-6j9yrn).ant-table-wrapper
+  .ant-table-thead
+  > tr
+  > th {
+  text-align: center;
+  border-bottom: 1px solid #515151;
+}
+
+:where(.css-dev-only-do-not-override-6j9yrn).ant-table-wrapper
+  .ant-table-tbody
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-6j9yrn).ant-table-wrapper
+  .ant-table-tbody
+  > tr
+  > td {
+  border-bottom: 1px solid #515151;
+}
+
+.inputBoxTransfer {
+  background-color: black;
+  border-radius: 5px;
+  border: 1px solid rgba(245, 245, 245, 0.2);
+  color: #f5f5f5;
+  outline: none;
+  height: 6vh;
+  width: 18vw;
+}
+
+#dropdown-transfer-modal {
+  background-color: #0a0a0a;
+  color: #f5f5f5 !important;
+  border-radius: 5px;
+  border: 1px solid rgba(245, 245, 245, 0.2);
+  height: 6vh;
+  width: 18vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+:where(.css-dev-only-do-not-override-6j9yrn).ant-picker
+  .ant-picker-input
+  > input {
+  color: #ffffff;
+}
+.pair_dropdown_spot .dropdown .dropdown-menu.show {
+  max-height: 50vh;
+  overflow-y: auto;
+}
+@media (min-width: 1281px) {
+  .vertical-line {
+    border-left: 1px solid #515151;
+    height: 18vh;
+    margin: 13px;
+    margin-top: 4px;
+  }
+}

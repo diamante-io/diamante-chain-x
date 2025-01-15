@@ -1,0 +1,66 @@
+.buyCryptoContent{
+    width: 30vw !important;
+    background-color: #0a0d17;
+    border-radius: 6px;
+    border: 1px solid rgba(245, 245, 245, 0.2);
+    height: 71vh !important;
+    overflow-x: auto;
+}
+
+
+.buyCryptoContent::-webkit-scrollbar {
+  width: 2px;
+}
+.buyCryptoContent::-webkit-scrollbar-thumb {
+  background: #236dff;
+  border-radius: 2px;
+}
+.continueBuyButton{
+    background-color:#236DFF;
+    height: 6vh;
+    width: 25vw;
+    border-radius: 10px ;
+    border: 1px solid #236DFF;
+    color: #ffffff; 
+}
+
+#dropdown-buy{
+background-color:#0a0d17;
+color:#ffffff;
+border-radius: 25px;
+border: none;
+height: 5vh;
+width: 4vw;
+font-size: 1vw;
+}
+
+.receiveAssetMain_container {
+  width: 26vw;
+}
+
+.spend_container {
+  width: 26vw;
+  border-radius: 6px,
+}
+
+.borderActiveBuySell{
+    border-bottom: 3px solid #236DFF;
+    cursor: pointer;
+  }
+
+  .payContent{
+    height: 6vh;
+    width: 6vw;
+    background-color: rgba(81, 81, 81, 0.5);
+    cursor: pointer;
+  }
+
+  .receiveAssetContainer {
+    background-color: rgba(245, 245, 245, 0.2);
+  }
+
+  /* @media (max-height: 1000px) {
+    .buyCryptoContent  {
+      height: auto !important;
+    }
+  } */

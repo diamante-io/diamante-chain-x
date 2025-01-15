@@ -1,0 +1,95 @@
+.docs_container {
+    width: 15vw;
+    height: 20vh;
+    background-color: black;
+}
+
+.selfie_docs_container {
+    width: 11vw;
+    height: 20vh;
+    background-color: black;
+}
+.personalInput {
+    border-bottom: 0.5vw;
+    color: #fff;
+    margin: auto;
+    border: 1.5px solid #2a2a2a;
+    background: #12141e;
+    padding: 10px 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+.inputDivContainer {
+    width: 30%;
+}
+.personView_rightSide_container{
+    height: 64vh ;
+}
+
+.calenderImage {
+    right: 2%;
+    top: 23.5%;
+}
+
+.datePicker_input .react-datepicker-wrapper {
+
+    display: block;
+}
+.personalInput_datepicker{
+    background-color: #12141e !important;
+    color: #fff;
+    margin: auto;
+    width: 100%;
+    padding: 4px 4px;
+    border-radius: 5px;
+    border: 1.5px solid #2a2a2a;
+
+}
+
+.iDVSubmitted {
+    width: 14vw;
+  }
+  .iDVSubmittedSelfie {
+    width: 11vw;
+    margin: 10px 0px 20px 0px;
+  }
+
+  .personView_rightSide_container {
+    width: 50% !important;
+  }
+  
+  
+  .indicator-line.active {
+    background: #236dff !important;
+    /* width: 33%; */
+  }
+  .indicator-line {
+    height: 2px;
+    flex: 1 1;
+  }
+
+  .indicator_inactive {
+    /* width: 33% !important; */
+   border: 1px solid gray !important;
+  }
+
+  .sucessMain_container  {
+    width: 50% !important;
+  }
+
+  @media (max-height: 1000px) {
+    .doc_container  {
+      width: 55vw !important;
+    }
+    .docs_container  {
+        width: 18vw !important;
+        height: 24vh !important;
+    }
+    .selfie_docs_container {
+        width: 14vw !important;
+        height: 24vh !important;
+    }
+    .personView_rightSide_container  {
+       width: 60% !important;
+    }
+  }

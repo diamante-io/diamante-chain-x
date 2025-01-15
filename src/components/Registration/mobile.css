@@ -1,0 +1,233 @@
+.signUp_main_Container {
+  background-color: #0a0c14;
+  color: #fff;
+  height: 100vh;
+  box-shadow: 2px 2px 2px rgb(59, 48, 218);
+  border-radius: 5px;
+}
+
+.signUp_cont {
+  width: 92%;
+}
+
+.Signup_form_main {
+  width: 28rem;
+  border: 1.061px solid rgba(245, 245, 245, 0.1);
+  border-radius: 5px;
+}
+
+.signIn_form_container {
+  height: 78vh !important;
+}
+
+.otp_main_container {
+  background-color: #0a0a0a;
+  color: #fff;
+}
+
+.new_eye_icon {
+  right: 5%;
+  top: 20%;
+}
+
+.createPassword_main_container {
+  max-height: 100vh;
+  border-radius: 5px;
+}
+
+.recoverPassword_main_container {
+  height: 80vh !important;
+  border: 1.061px solid rgba(245, 245, 245, 0.1);
+  border-radius: 5px;
+  width: 28rem;
+}
+
+.verificationProcess_right_container {
+  width: 38rem;
+  border: 1.061px solid rgba(245, 245, 245, 0.1);
+  height: 60vh;
+  border-radius: 5px;
+}
+
+.TwofaRight_right_container {
+  width: 30rem;
+  border: 1.061px solid rgba(245, 245, 245, 0.1);
+  height: 60vh !important;
+  border-radius: 5px;
+}
+
+.toolTip {
+  width: 12%;
+  position: absolute;
+  top: 11%;
+  left: 18%;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.otpContainer {
+  position: relative;
+  width: 100%;
+}
+
+.otpContainer > div {
+  width: 100%;
+  grid-gap: 20px;
+}
+.otpContainer .otp_input {
+  width: calc(100% / 6) !important;
+}
+.otpContainer .otp_input input {
+  width: 100% !important;
+  margin-right: 0 !important;
+}
+@media (max-height: 1000px) {
+  .TwofaRight_right_container {
+    height: 80vh !important;
+    width: 28rem !important;
+  }
+  .toolTip {
+    left: 16%;
+    top: 25%;
+  }
+}
+.qrCanvas {
+  display: flex;
+  min-height: 100vh;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.qrCode {
+  background-color: white;
+  padding: 7px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 47%;
+}
+/* .marquee-container {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+  } */
+
+.individual_liveAsset_container {
+  animation: marquee 10s linear infinite; /* Adjust the duration as needed */
+}
+
+.labelClass {
+  /* height: 3vh; */
+  /* display: flex;
+  flex-direction: row;
+  align-items: center; */
+  font-size: 1vw;
+  color: #cfcfd0;
+}
+
+.sessionExpire > .modal-dialog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aqua;
+}
+
+@media (max-height: 1000px) {
+  /* .TwofaRight_right_container {
+    height: 80vh !important;
+  } */
+
+  .verificationProcess_right_container {
+    width: 40rem;
+    height: 80vh;
+  }
+  /* .recoverPassword_main_container {
+    height: 72vh !important;
+  } */
+
+  /* .signIn_form_container {
+    height: 61vh !important;
+  } */
+
+  .Signup_form_main {
+    /* min-height: 58vh !important; */
+    min-height: 54vh !important;
+  }
+
+  .inputStyle {
+    height: "5.5vw";
+    width: "5.5vw";
+  }
+}
+
+#sessionModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35vw;
+}
+
+.modal-open .signUp_main_Container {
+  -webkit-filter: blur(5px);
+}
+
+.inputPassSection {
+  border: 1.5px solid #2a2a2a;
+  border-radius: 0.6vw;
+}
+
+.inputField_onboarding {
+  background-color: #12141e !important;
+  border-radius: 0.5vw;
+  color: #fff;
+  margin: auto;
+  width: 48%;
+  padding: 10px 10px;
+  outline: #236dff !important;
+  border: none;
+}
+.inputField_onboarding:hover {
+  outline: #236dff !important;
+}
+
+/* Remove the default styling on autofill */
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #12141e inset !important;
+  -webkit-text-fill-color: white !important;
+}
+
+@media (min-width: 1280px) {
+  .signIn_form_container {
+    height: 82vh !important;
+  }
+}
+@media (min-width: 1920px) {
+  .signIn_form_container {
+    height: 62vh !important;
+  }
+  .signUp_btn_container {
+    margin-top: 4rem !important;
+  }
+  .recoverPassword_main_container {
+    height: 60vh !important;
+  }
+
+  .TwofaRight_right_container {
+    height: 60vh !important;
+  }
+  .twofaBtn {
+    margin-top: 0;
+  }
+}
+
+/* @keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  } */

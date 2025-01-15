@@ -1,0 +1,61 @@
+.outer_circle {
+  width: 18px;
+  height: 17px;
+  border: 1px #236dff solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inner_circle {
+  width: 9px;
+  height: 9px;
+}
+.step_header_color {
+  color: #f5f5f5;
+  font-size: 1.2vw;
+}
+.pending_btn {
+  border-radius: 25px;
+  background: rgba(81, 81, 81, 0.5);
+  vertical-align: middle;
+}
+.market_label {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 4.24;
+  border: 1px rgba(245, 245, 245, 0.2) solid;
+}
+.refer_animation,
+.refer_diam {
+  left: 70%;
+}
+.refer_diam {
+  margin-top: 8px;
+  margin-left: 10.8px;
+  width: 4.64rem;
+}
+.arrow_icon {
+  width: 8px;
+  border: 0.125rem solid rgba(245, 245, 245, 0.6);
+  padding: 3px;
+  rotate: 130deg;
+  right: -1px;
+  top: -3.5px;
+  border-bottom: none;
+  border-right: none;
+  border-radius: 1px;
+}
+
+.profileImage {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: 1px solid #236dff;
+}
+
+#dropdown-asset  {
+  outline: none !important;
+  color:  #FAB446 !important;
+background-color: transparent;
+border:  1px solid grey !important;
+}
+

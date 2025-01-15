@@ -1,0 +1,80 @@
+.supportInputContent {
+  background-color: #0a0d17;
+  border: 1px solid #272829;
+}
+
+.formSubmit_button,
+.disable_formSubmit_button {
+  width: 19.31vw;
+}
+.formSubmit_button {
+  background: linear-gradient(90deg, #143575, #236dff);
+  /* background: linear-gradient(91deg, #0c8384 0%, #00eefd 100%); */
+}
+.disable_formSubmit_button {
+  /* background: linear-gradient(
+    91deg,
+    rgba(12, 131, 132, 0.4) 0%,
+    rgba(0, 238, 253, 0.4) 100%
+  ); */
+  background: linear-gradient(
+    90deg,
+    rgb(20, 53, 117, 0.5),
+    rgb(35, 109, 255, 0.4)
+  );
+  cursor: not-allowed;
+  pointer-events: all !important;
+}
+.supportInputType {
+  width: 25vw;
+  /* height: 2.8vw; */
+  padding: 10px 0px;
+  color: #cfcfd0;
+  text-indent: 10px;
+  border: 1.5px solid #2a2a2a;
+  border-radius: 10px;
+}
+.supportInputTypeQuery {
+  width: 30vw;
+  min-height: 16.2vh;
+  color: #cfcfd0;
+  text-indent: 10px;
+  border: 1.5px solid #2a2a2a;
+  border-radius: 10px;
+  outline: none;
+}
+
+.supportInputTypeAttachfile {
+  color: #cfcfd0;
+  border: 1.5px solid #2a2a2a;
+  border-radius: 10px;
+  padding: 7px 0px;
+  width: 100%;
+  text-indent: -101px;
+  text-overflow: ellipsis;
+  padding-right: 50px;
+  box-sizing: border-box;
+}
+.uploadFile {
+  position: absolute;
+  bottom: 33%;
+  left: 88%;
+}
+input[type="file"]::-webkit-file-upload-button {
+  visibility: hidden;
+}
+input[type="file"] {
+  margin-left: "9px";
+  color: white;
+}
+
+@media (max-width: 1600px) {
+  .supportInputTypeAttachfile {
+    text-indent: -100px;
+  }
+}
+@media (max-width: 1281px) {
+  .supportInputTypeAttachfile {
+    text-indent: -74px;
+  }
+}

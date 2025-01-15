@@ -1,0 +1,28 @@
+#dropdown-trading {
+    background-color: #0a0a0a;
+    color: #f5f5f5 !important;
+    border-radius: 5px;
+    border: 1px solid rgba(245, 245, 245, 0.2);
+    height: 5vh;
+    width: 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tradeIndiv_container{
+    width: 24%;
+}
+
+.tradeData:hover {
+    background-color: hsl(0, 1%, 18%);
+    cursor: pointer;
+    border-radius:2% ;
+}
+.dropdown_container .dropdown-menu.show {
+    background-color: #2a2a2a !important;
+    color: #f5f5f5 !important;
+}
+/* .headerDiam {
+    width: 40%;
+} */
